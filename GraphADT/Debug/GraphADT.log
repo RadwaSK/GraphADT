@@ -1,0 +1,78 @@
+﻿Build started 02-Jul-18 1:18:12 AM.
+     1>Project "D:\RODY\Study\CMP 1st Year\Projects C++\Data Structure\GraphADT\GraphADT\GraphADT.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Helper ADT's\LinkedQueue.cpp" "..\Helper ADT's\LinkedStack.cpp" "..\Helper ADT's\Node.cpp" Edge.cpp Graph.cpp GraphTester.cpp Vertex.cpp
+         Vertex.cpp
+         GraphTester.cpp
+     1>d:\rody\study\cmp 1st year\projects c++\data structure\graphadt\graphadt\graph.cpp(14): warning C4172: returning address of local variable or temporary
+                 d:\rody\study\cmp 1st year\projects c++\data structure\graphadt\graphadt\graph.cpp(8) : while compiling class template member function 'Vertex<LabelType> *&Graph<LabelType>::getVertexPtr(LabelType) const'
+                 with
+                 [
+                     LabelType=int
+                 ]
+                 d:\rody\study\cmp 1st year\projects c++\data structure\graphadt\graphadt\graph.cpp(72) : see reference to function template instantiation 'Vertex<LabelType> *&Graph<LabelType>::getVertexPtr(LabelType) const' being compiled
+                 with
+                 [
+                     LabelType=int
+                 ]
+                 d:\rody\study\cmp 1st year\projects c++\data structure\graphadt\graphadt\graph.cpp(41) : while compiling class template member function 'Graph<LabelType>::Graph(void)'
+                 with
+                 [
+                     LabelType=int
+                 ]
+                 d:\rody\study\cmp 1st year\projects c++\data structure\graphadt\graphadt\graphtester.cpp(118) : see reference to function template instantiation 'Graph<LabelType>::Graph(void)' being compiled
+                 with
+                 [
+                     LabelType=int
+                 ]
+                 d:\rody\study\cmp 1st year\projects c++\data structure\graphadt\graphadt\graphtester.cpp(118) : see reference to class template instantiation 'Graph<LabelType>' being compiled
+                 with
+                 [
+                     LabelType=int
+                 ]
+     1>d:\rody\study\cmp 1st year\projects c++\data structure\graphadt\graphadt\vertex.cpp(140): warning C4800: 'Edge<LabelType> *const ' : forcing value to bool 'true' or 'false' (performance warning)
+                 with
+                 [
+                     LabelType=int
+                 ]
+                 d:\rody\study\cmp 1st year\projects c++\data structure\graphadt\graphadt\vertex.cpp(139) : while compiling class template member function 'bool Vertex<LabelType>::HasEdges(void) const'
+                 with
+                 [
+                     LabelType=int
+                 ]
+                 d:\rody\study\cmp 1st year\projects c++\data structure\graphadt\graphadt\graph.cpp(133) : see reference to function template instantiation 'bool Vertex<LabelType>::HasEdges(void) const' being compiled
+                 with
+                 [
+                     LabelType=int
+                 ]
+                 d:\rody\study\cmp 1st year\projects c++\data structure\graphadt\graphadt\graph.cpp(53) : see reference to class template instantiation 'Vertex<LabelType>' being compiled
+                 with
+                 [
+                     LabelType=int
+                 ]
+                 d:\rody\study\cmp 1st year\projects c++\data structure\graphadt\graphadt\graph.cpp(49) : while compiling class template member function 'bool Graph<LabelType>::add(LabelType,LabelType,int)'
+                 with
+                 [
+                     LabelType=int
+                 ]
+         Graph.cpp
+         Edge.cpp
+         Node.cpp
+         LinkedStack.cpp
+         LinkedQueue.cpp
+         Generating Code...
+     1>d:\rody\study\cmp 1st year\projects c++\data structure\graphadt\graphadt\graph.cpp(17): warning C4715: 'Graph<int>::getVertexPtr' : not all control paths return a value
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\RODY\Study\CMP 1st Year\Projects C++\Data Structure\GraphADT\Debug\GraphADT.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\RODY\Study\CMP 1st Year\Projects C++\Data Structure\GraphADT\Debug\GraphADT.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\RODY\Study\CMP 1st Year\Projects C++\Data Structure\GraphADT\Debug\GraphADT.lib" /MACHINE:X86 Debug\LinkedQueue.obj
+         Debug\LinkedStack.obj
+         Debug\Node.obj
+         Debug\Edge.obj
+         Debug\Graph.obj
+         Debug\GraphTester.obj
+         Debug\Vertex.obj
+         GraphADT.vcxproj -> D:\RODY\Study\CMP 1st Year\Projects C++\Data Structure\GraphADT\Debug\GraphADT.exe
+     1>Done Building Project "D:\RODY\Study\CMP 1st Year\Projects C++\Data Structure\GraphADT\GraphADT\GraphADT.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.68
